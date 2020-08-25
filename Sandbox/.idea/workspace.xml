@@ -62,6 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../address/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -254,6 +255,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598359290481" />
+    <state x="11" y="153" width="746" height="514" key="RefactorJ.ExtractClass" timestamp="1598373222162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="11" y="153" width="746" height="514" key="RefactorJ.ExtractClass/0.0.1536.824@0.0.1536.824" timestamp="1598373222162" />
     <state x="26" y="0" key="SettingsEditor" timestamp="1598355799299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,6 +271,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="133" width="869" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1598019027404" />
+    <state x="115" y="172" key="extract.method.dialog" timestamp="1598372731022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="115" y="172" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1598372731022" />
     <state x="0" y="32" width="786" height="759" key="new project wizard" timestamp="1598348391923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

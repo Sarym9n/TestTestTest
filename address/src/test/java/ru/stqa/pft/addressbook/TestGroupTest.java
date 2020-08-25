@@ -23,12 +23,17 @@ public class TestGroupTest {
     js = (JavascriptExecutor) wd;
     vars = new HashMap<String, Object>();
     wd.get("http://localhost/addressbook/group.php");
+    login("admin", "secret");
+  }
+
+  private void login(String username, String password) {
     wd.manage().window().setSize(new Dimension(822, 824));
     wd.findElement(By.name("user")).click();
-    wd.findElement(By.name("user")).sendKeys("admin");
-    wd.findElement(By.name("pass")).sendKeys("secret");
+    wd.findElement(By.name("user")).sendKeys(username);
+    wd.findElement(By.name("pass")).sendKeys(password);
     wd.findElement(By.name("pass")).sendKeys(Keys.ENTER);
   }
+
   @After
   public void tearDown() {
     wd.quit();
@@ -37,11 +42,15 @@ public class TestGroupTest {
   public void testGroup() {
     wd.findElement(By.name("new")).click();
     wd.findElement(By.name("group_name")).click();
-    wd.findElement(By.name("group_name")).sendKeys("esT");
-    wd.findElement(By.name("group_header")).sendKeys("test1");
-    wd.findElement(By.name("group_footer")).sendKeys("test12");
+    fillGroupForm("esT", "test1", "test12");
     wd.findElement(By.name("submit")).click();
     wd.findElement(By.linkText("groups")).click();
     wd.findElement(By.linkText("Logout")).click();
+  }
+
+  private void fillGroupForm(String name, String hedder, String futer) {
+    wd.findElement(By.name("group_name")).sendKeys(name);
+    wd.findElement(By.name("group_header")).sendKeys(hedder);
+    wd.findElement(By.name("group_footer")).sendKeys(futer);
   }
 }
