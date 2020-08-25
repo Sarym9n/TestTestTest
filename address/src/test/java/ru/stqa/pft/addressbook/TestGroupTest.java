@@ -22,6 +22,12 @@ public class TestGroupTest {
     wd = new ChromeDriver();
     js = (JavascriptExecutor) wd;
     vars = new HashMap<String, Object>();
+    wd.get("http://localhost/addressbook/group.php");
+    wd.manage().window().setSize(new Dimension(822, 824));
+    wd.findElement(By.name("user")).click();
+    wd.findElement(By.name("user")).sendKeys("admin");
+    wd.findElement(By.name("pass")).sendKeys("secret");
+    wd.findElement(By.name("pass")).sendKeys(Keys.ENTER);
   }
   @After
   public void tearDown() {
@@ -29,12 +35,6 @@ public class TestGroupTest {
   }
   @Test
   public void testGroup() {
-    wd.get("http://localhost/addressbook/group.php");
-    wd.manage().window().setSize(new Dimension(822, 824));
-    wd.findElement(By.name("user")).click();
-    wd.findElement(By.name("user")).sendKeys("admin");
-    wd.findElement(By.name("pass")).sendKeys("secret");
-    wd.findElement(By.name("pass")).sendKeys(Keys.ENTER);
     wd.findElement(By.name("new")).click();
     wd.findElement(By.name("group_name")).click();
     wd.findElement(By.name("group_name")).sendKeys("esT");
