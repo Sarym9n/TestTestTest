@@ -13,6 +13,30 @@
         </option>
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/address" />
+        <option name="gradleHome" value="C:/tools/gradle-2.14" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/address" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/addresses1" />
+        <option name="gradleHome" value="C:/tools/gradle-2.14" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/addresses1" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

@@ -14,6 +14,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/../address">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../address-book-test">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../addressbook">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../addressbook-web-tests">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -51,8 +63,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../address/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25632185" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -60,13 +75,63 @@
       <recent name="ru.TestTestTest.Sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SquareTests">
-    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.TestTestTest.Sandbox.MyFirstProgram" />
-      <module name="Sandbox.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.TestGroupTest">
+    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../addressbook" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.TestTestTes.addressbook.GroupCreationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../address" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.GroupTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupTest.testGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../address" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.GroupTest.testGroup&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SquareTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -87,9 +152,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestGroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../address" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.TestGroupTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SquareTests" />
+        <item itemvalue="Gradle.TestGroupTest" />
+        <item itemvalue="Gradle.TestGroupTest" />
+        <item itemvalue="Gradle.GroupTest" />
+        <item itemvalue="Gradle.GroupTest.testGroup" />
+        <item itemvalue="Gradle.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -114,46 +202,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="51" y="50" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1598017834309" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1598368402315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598368402315" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1598356042086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598356042086" />
     <state x="180" y="217" width="523" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597950811891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="180" y="217" width="523" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1597950811891" />
-    <state width="754" height="195" key="GridCell.Tab.0.bottom" timestamp="1598019404223">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1598352369323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598019404223" />
-    <state width="754" height="195" key="GridCell.Tab.0.center" timestamp="1598019404222">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598352369323" />
+    <state x="300" y="121" key="FileChooserDialogImpl" timestamp="1598361446514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598019404222" />
-    <state width="754" height="195" key="GridCell.Tab.0.left" timestamp="1598019404222">
+    <state x="300" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598361446514" />
+    <state width="724" height="164" key="GridCell.Tab.0.bottom" timestamp="1598371223830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598019404222" />
-    <state width="754" height="195" key="GridCell.Tab.0.right" timestamp="1598019404223">
+    <state width="724" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598371223830" />
+    <state width="724" height="164" key="GridCell.Tab.0.center" timestamp="1598371223830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598019404223" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1598017877426">
+    <state width="724" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598371223830" />
+    <state width="724" height="164" key="GridCell.Tab.0.left" timestamp="1598371223830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598017877426" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1598017877426">
+    <state width="724" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598371223830" />
+    <state width="724" height="164" key="GridCell.Tab.0.right" timestamp="1598371223830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598017877426" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1598017877426">
+    <state width="724" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598371223830" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1598359290481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598017877426" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1598017877426">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598359290481" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1598359290481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598017877426" />
-    <state x="-233" y="95" key="SettingsEditor" timestamp="1598018343931">
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598359290481" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1598359290481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-233" y="95" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598018343931" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598359290481" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1598359290481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598359290481" />
+    <state x="26" y="0" key="SettingsEditor" timestamp="1598355799299">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="26" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598355799299" />
     <state x="109" y="128" key="chooseDestDirectoryDialog" timestamp="1597950811837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -162,10 +266,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="133" width="869" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1598019027404" />
+    <state x="0" y="32" width="786" height="759" key="new project wizard" timestamp="1598348391923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="32" width="786" height="759" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598348391923" />
     <state x="41" y="190" key="run.anything.popup" timestamp="1598000368258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="41" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598000368258" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598356238320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598356238320" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,5 +288,8 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sandbox$SquareTests.ic" NAME="SquareTests Coverage Results" MODIFIED="1598352468467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
